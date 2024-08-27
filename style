@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+}
+
+.containerheader {
+    width: 100%;
+    background:  rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    & .containerlogo img {
+        width: 250px;
+
+    }
+
+    & .containermenu{
+        width: 60px;
+    }
+
+    &.containermenu nav {
+        padding: 15px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    & .containermenu nav a{
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        font-family: 'GILL sans', 'GILL sans' Calibri, 'trebuchet MS', sans-serif;
+        margin: 15px;
+        background: rgb(255, 255, 255);
+        border-radius:16px;
+
+    }
+}
+ main{
+    & .containerbanner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+ }
+
+    & .containerBanner img{
+        width: 70px;
+        border-radius: 16px;
+        box-shadow: 8px 8px 8px black;
+    }
+    
+    & .containerBanner img:hover{
+        width: 80%;
+        transition: 2.0s;
+        border-radius: 16px;
+        box-shadow: 8px 8px 8px black;
+         
+}
+    
+
+
+
+
+&.containerMenu {
+    width: 70%;
+
+}
